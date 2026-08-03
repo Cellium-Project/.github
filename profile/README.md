@@ -42,6 +42,10 @@
 
 **一个自进化的 AI Agent**
 
+<p align="center">
+  <img src="logo.png" alt="Cellium-Agent" width="400">
+</p>
+
 传统 Agent 重复犯错、陷入死循环、不会总结经验。所以我们选择让 Agent 无限进化。
 
 基于微内核架构（EventBus + DI + BaseTool），支持任意 OpenAI 兼容 API。核心设计是决策环（Control Loop）驱动的自学习 Agent，通过贝叶斯 Bandit 实现自适应决策优化。
