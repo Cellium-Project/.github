@@ -1,12 +1,85 @@
-## Hi there 👋
+<div align="center">
 
-<!--
+# Cellium-Project
 
-**Here are some ideas to get you started:**
+**无限开源 · 无限进步**
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+开源是我们对技术的信仰，进步是我们对未来的承诺。
+
+</div>
+
+---
+
+## 关于我们
+
+**Cellium-Project** 是一个由技术爱好者组成的开源组织。我们相信：
+
+> 开源不只是共享代码，更是让每一个想法都能被看见、被改进、被传承。
+>
+> 进步不只是一次突破，而是无数次迭代后的持续生长。
+
+我们致力于构建**简单、强大、可进化**的软件，让复杂的技术回归本质，让每一个开发者都能轻松上手、自由改造、无限进步。
+
+## 项目生态
+
+### [Cellium](https://github.com/Cellium-Project/Cellium)
+
+**Python + HTML/JS 的桌面应用框架**
+
+基于"核心驱动-模块解耦"理念，通过一个精密的微内核（Core）作为调度中枢，实现前端交互与后端逻辑的彻底分离。开发者只需将功能封装为独立的"细胞单元"，其余的跨模块通信、并发调度与资源管理均由 Cellium 核心透明完成，让复杂的系统构建变得像拼图一样简单。
+
+| 特点 | 说明 |
+|------|------|
+| 核心驱动 | 微内核统一调度，开发者只需关注业务逻辑 |
+| 模块解耦 | 前后端独立开发，通过协议通信 |
+| 简单 | 只需写 Python 函数定义功能，前端调用即可 |
+| 灵活 | 完整 Web 前端生态，任意 UI 框架 |
+| 轻量 | 基于 MiniBlink，体积小、启动快 |
+
+> 文档: [https://cellium-project.github.io/Cellium/](https://cellium-project.github.io/Cellium/)
+
+### [Cellium-Agent](https://github.com/Cellium-Project/Cellium-Agent)
+
+**一个自进化的 AI Agent**
+
+传统 Agent 重复犯错、陷入死循环、不会总结经验。所以我们选择让 Agent 无限进化。
+
+基于微内核架构（EventBus + DI + BaseTool），支持任意 OpenAI 兼容 API。核心设计是决策环（Control Loop）驱动的自学习 Agent，通过贝叶斯 Bandit 实现自适应决策优化。
+
+| 特性 | 说明 |
+|------|------|
+| 自学习系统 | 基于贝叶斯 Bandit 的 Action 选择，持续优化决策策略 |
+| 三层记忆 | 人格记忆 + 会话记忆 + 长期记忆，混合召回 |
+| 组件自扩展 | Agent 可运行时创建新组件，自我改装进化 |
+| 多平台接入 | WebUI、QQ、Telegram、飞书、微信 |
+| 上下文工程 | 前缀缓存优化 + 压缩分块，让长对话更高效 |
+
+> 参考 [Strategy Gene](https://arxiv.org/abs/2604.15097) 研究：从失败中自动进化，持续优化决策策略。
+
+## 开源理念
+
+### 无限开源
+
+- **代码完全开放**：所有项目采用 Apache 2.0 许可证，自由使用、自由修改
+- **知识开放分享**：文档、教程、设计思路全部公开
+- **生态开放共建**：欢迎任何形式的贡献，无论是代码、文档还是想法
+
+### 无限进步
+
+- **从失败中学习**：Agent 会总结失败经验，组织同样会从每一次反馈中成长
+- **持续迭代**：我们相信小步快跑，每次提交都让项目更进一步
+- **拥抱变化**：技术的边界在不断扩展，我们始终保持好奇心与进取心
+
+## 如何参与
+
+我们欢迎每一个热爱技术的你：
+
+- ⭐ **Star 项目**：让更多开发者看到这些项目
+- 🐛 **提交 Issue**：报告 bug，提出建议
+- 🔧 **提交 PR**：贡献代码，修复问题，添加新功能
+- 📖 **完善文档**：让文档更好读、更好用
+- 💡 **分享想法**：你的每一个想法都可能是下一个功能
+
+## License
+
+组织内所有项目均采用 [Apache License 2.0](LICENSE)，自由开放，无限进步。
